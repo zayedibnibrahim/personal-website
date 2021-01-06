@@ -116,19 +116,50 @@ p{
     font-family: 'Roboto', sans-serif;
 }
 .inquery-section{
-    height: 400px;
-    padding: 40px 0 40px;
-    width: 60%;
+    height: 240px;
+    padding: 145px 0 80px;
+    width: 914px;
     margin: auto;
 }
-.inquery-section .banner{
+.banner{
     background-image: url("images/inquery.png");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
+    background-position: top center;
+    height: 126px;
+    padding: 50px;
+    position: relative;
 }
-.inquery-section .banner-item{
-    width: 40%;
+
+.banner h1{
     float: left;
-    margin-left: 10%;
-    padding: 30px 0 30px;
+
+}
+.banner a{
+    position: absolute;
+    top: 86px;
+    right: 60px;
+}
+footer h4{
+    font-size: 24px;
+    font-family: 'Bebas Neue', cursive;
+    color: #696871;
+    text-align: center;
+    font-weight: 400;
+    margin: 10px;
+}
+footer h1{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    color: #363958;
+    font-weight: bold;
+}
+.icon-hub img{
+    width: 40px;
+    margin-left: 20px;
+}
+.icon-hub{
+    padding: 20px 0 40px;
+    text-align: center;
 }
