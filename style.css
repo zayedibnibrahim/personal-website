@@ -1,11 +1,11 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
 }
 header{
     padding-top: 20px;
     height: 90px;
+    font-family: 'Roboto', sans-serif;
 }
 header nav{
     width: 85%;
@@ -20,4 +20,92 @@ header nav ul li{
     float: left;
     margin-left: 10%;
     font-weight: 700;
+}
+.top-section,
+.second-section{
+    height: 600px;
+}
+.half-width{
+    width: 40%;
+    margin-left: 7%;
+    float: left;
+}
+.half-width img{
+    width: 90%;
+}
+.colorful-text{
+    color: #FF8367;
+
+}
+ h1{
+     font-size: 80px;
+     font-family: 'Bebas Neue', cursive;
+     color: #363958;
+     font-weight: 400;
+     margin: 0;
+ }
+ h2{
+    font-family: 'Bebas Neue', cursive;
+    color: #363958;
+    font-weight: 400;
+    font-size: 48px;
+    margin-bottom: 10px;
+ }
+p{
+    font-family: 'Roboto', sans-serif;
+}
+.link-button{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    padding: 20px 45px;
+    text-decoration: none;
+    background-image: linear-gradient(180deg, #F46060, #FF8063);
+    border-radius: 6px;
+    font-weight: 400;
+}
+.top-section p, .second-section p{
+    margin-bottom: 58px;
+}
+.second-section p{
+    padding-right: 100px;
+}
+.top-section .half-width:nth-child(1){
+    padding-top: 55px;
+}
+.second-section .half-width:nth-child(2){
+    padding-top: 55px;
+}
+.projects-section{
+    background-color: #F8F9FC;
+    height: 700px;
+    padding-top: 70px;
+}
+.project-colorful-text{
+    color: #F46060;
+}
+.projects-section h2{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.projects{
+    width: 85%;
+    margin: 10px auto;
+
+}
+.project-item{
+    text-align: left;
+    width: 28%;
+    float: left;
+    box-shadow: 0px 6.5812px 19.7436px rgba(0, 0, 0, 0.07);
+    margin-left: 3%;
+    padding: 10px;
+    border-radius: 20px;
+}
+.project-item img{
+    width: 100%;
+}
+.projects-section h3{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
 }
