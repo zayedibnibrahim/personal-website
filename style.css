@@ -94,7 +94,7 @@ p{
     margin-bottom: 50px;
 }
 .projects{
-    width: 85%;
+    width: 1250px;
     margin: 10px auto;
 
 }
@@ -117,7 +117,7 @@ p{
 }
 .inquery-section{
     height: 240px;
-    padding: 145px 0 80px;
+    padding: 160px 0 80px;
     width: 914px;
     margin: auto;
 }
@@ -162,4 +162,34 @@ footer h1{
 .icon-hub{
     padding: 20px 0 40px;
     text-align: center;
+}
+/* skill part -bonus */
+
+.skill-section{
+    height: 185px;
+    padding: 50px 0 80px;
+    width: 914px;
+    margin: auto;
+}
+.skill-section h2{
+    text-align: center;
+}
+.skills{
+    margin: 20px auto 0px;
+    width: 620px;
+
+}
+.single-skill{
+    float: left;
+    width: 160px;
+    margin-left: 10%;
+    box-shadow: 7px 7px 20px 6px rgb(68 44 173 / 21%);
+    text-align: center;
+    padding: 20px;
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+.skills img{
+    width: 100px;
 }
